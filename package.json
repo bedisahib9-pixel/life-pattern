@@ -1,0 +1,7 @@
+{
+  "name": "life-pattern-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {"start":"expo start","android":"expo start --android","ios":"expo start --ios"},
+  "dependencies": {"expo":"latest","expo-status-bar":"latest","react":"latest","react-native":"latest"}
+}
