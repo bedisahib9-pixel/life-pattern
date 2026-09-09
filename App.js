@@ -10,7 +10,7 @@ export default function App(){
  return <SafeAreaView style={styles.root}><StatusBar style="light"/><ScrollView contentContainerStyle={styles.wrap}>
   <Text style={styles.logo}>LIFE PATTERN</Text>
   {screen==='home' && <>
-   <Text style={styles.h1}>Apna Life Pattern<br/>pehchaniye.</Text>
+   <Text style={styles.h1}>Apna Life Pattern<Text>{"\n"}</Text>pehchaniye.</Text>
    <Text style={styles.sub}>Hand & fingerprint patterns ki traditional AI interpretation.</Text>
    <View style={styles.hero}><Text style={styles.eyebrow}>YOUR FIRST SCAN</Text><Text style={styles.heroTitle}>Kya aap 90% mein hain ya 10% mein?</Text><Text style={styles.muted}>Aapke scan se ek preliminary Life Pattern Score milega.</Text><Pressable style={styles.primary} onPress={()=>go('scan')}><Text style={styles.primaryText}>Start Free Scan →</Text></Pressable></View>
    <Text style={styles.section}>What we analyse</Text>
